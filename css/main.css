@@ -1,0 +1,406 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+#container .title{
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+#container .title .title__left{
+   
+    
+}
+#container .title .title__left img.left{
+    max-height: 60px;
+    padding: 0px 5px;
+    
+}
+#container .title .title__left .right{
+    border-left: 2px solid black ;
+    padding: 0px 15px;
+}
+#container .title__mid ul {
+    display: flex;
+    list-style: none;
+}
+#container .title__mid ul a{
+    display: block;
+    padding: 0px 20px;
+    color: #07273D;
+    text-decoration: none;
+    
+}
+/* ----------------------- */
+#container .title__mid ul li.sub-menu{
+    position: relative;
+}
+
+.sub_menu{
+    position: absolute;
+    background-color: #ffffff;
+    width: 500px;
+    height: 100px;
+    top: 10px;
+    padding: 30px 0px;
+    margin: 0px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0;
+    transition: 0.4s;
+}
+#container .title__mid ul  li.sub-menu:active .sub_menu{
+    opacity: 100;
+    top: 48px;
+}
+.sub_menu ul{
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ----------------- */
+#container .title__right{
+        display: flex;
+
+}
+#container .title__right button{
+    font-size: 400;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#container .title__right button.left{
+    margin-right: 20px;
+    background-color: #006dff;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 16px !important;
+}
+#container .title__right button.left:active{
+
+    background-color: #2059a4;
+    transform: scale(0.95);
+}
+#container .title__right button.right{
+    font-size: 16px !important;
+}
+#container .title__right button.right:hover{
+    background-color: #07273D;
+    color: white;
+}
+
+
+
+
+
+
+.body__1{
+    color: #ffffff;
+    background: linear-gradient(to right, #1a3961, #c5a53b);
+    background-size:1500px;
+    border-bottom: 5px solid  #50e3c2;;
+    padding: 40px 100px;
+    height: 80vh;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+
+}
+.body__1 .text1{
+    color: #50e3c2;
+    font-size: 60px;
+}
+.body__1 .text2{
+    
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.body__1 .text3{
+    max-width: 500px;
+    font-size: x-small;
+    font-family: Cambria, Cochin, Georgia, Times,
+     'Times New Roman', serif  ;
+    margin-bottom: 40px;
+}
+.body__1 button{
+    background-color: #50e3c2;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.body__1 .end ul {
+    display: flex;
+    list-style: none;
+    
+}
+.body__1 .end ul li{
+    margin-right: 20px;
+}
+
+.body__2 {
+    background: linear-gradient(to right,black , #072e48);
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    padding: 90px 0px;
+}
+.body__2 .title__body__2{
+    display: inline-block;
+   
+   
+    text-align: center;
+}
+
+.body__2 .title__body__2 span.one {
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.body__2 .title__body__2 span.two{
+    display: flex;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  
+}
+.body__2 .title__body__2 span.two h4{
+    color: #edfe3c;
+}
+.body__2 .title__body__2 span.three{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.body__2 .body__body__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    color: #ffffff;
+    align-items: center;
+}
+.body__2 .body__body__2 .left{
+    margin-right: 20px;
+}
+
+.body__2 .body__body__2 .left ul li{
+    list-style: none;
+    margin-top: 10px;
+    
+    color: #ffffff;
+}
+.body__2 .body__body__2 .left ul li button{
+    min-width: 380px;
+    padding: 26px 24px;
+    border: 2px solid #c5a53b;
+    border-radius: 10px;
+    background:none;
+    color: #ffffffda;
+    font-size: 20px;
+    transition: 0.3s;
+    
+}
+.body__2 .body__body__2 .left ul li:hover button{
+    border: 2px solid #edfe3c;
+    background-color: #eefe3c60;
+
+}
+.body__2 .body__body__2 .left ul li:active button{
+    transform: scale(0.90);
+}
+.body__2 .body__body__2 .left ul li button.one{
+    border: 2px solid #edfe3c;
+    background-color: #eefe3c60;
+}
+.body__2 .body__body__2 .left ul li button i{
+    margin-right: 8px;
+}
+.body__2 .body__body__2 .right {
+    padding: 20px;
+}
+
+.body__2 .body__body__2 .right img{
+    border-radius: 10px;
+    max-width: 700;
+    max-height: 420px;
+}
+.end__body__2 .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.end__body__2 .end button{
+    transition: 0.3s;
+    min-width: 340px;
+    margin-left: 20px;
+    background: none;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 50px;
+    min-height: 50px;
+    padding: 16px 33px;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+.end__body__2 .end button:hover{
+    color: #ffffffb8;
+    border: 3px solid #edfe3c;
+    background-color: #eefe3c60;
+}
+.end__body__2 .end button:active{
+    transform: scale(0.90);
+}
+.body__4{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,black , #072e48);
+}
+
+
+.body__4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 190px;
+    
+}
+.body__4 .title{
+    background: linear-gradient(to right,black , #072e48);
+
+    font-size: 25px;
+    margin-top: 300px;
+    color: #ffffffb2;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.body__4 .container{
+    background-color: #ffffff;
+    max-width: 250px;
+    max-height: 500px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    position: relative;
+    
+}
+.body__4 .container:hover{
+    background-color: #50e3c2;
+
+}
+.body__4 .container img{
+    max-width:245px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.body__4 .container .chu{
+    padding: 20px;
+    
+}
+.body__4 .container .chu span{
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.body__4 .container .chu span h2    {
+    margin-bottom: 10px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.body__4 .next{
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    color: #ffffff;
+    text-align: right;
+    font-size: 40px;
+    /* margin-right: 20px; */
+    transition: 0.3s;
+}
+.body__4 .container:hover .next{
+    
+    color: #07273D;
+    transform: translateX(20px);
+}
+.body__5{
+    position: relative;
+
+    display: inline-block;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,black , #072e48);
+}
+.body__5 button{
+    margin-top: 80px;
+    font-size: 50px;
+    padding: 0px 10px;
+    color:#ffffff;
+    background:none;
+    border: none;
+    transition: 0.3s;
+}
+.body__5 button:hover{
+    transform: scale(0.85) translateY(-10px);
+    border: unset;
+}
+
+.endstart{
+    margin-top: 200px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+}
+.endstart h1{
+    color: #50e3c2;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 300px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+

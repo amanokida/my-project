@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#container{
+    background: linear-gradient(to right, #062438,#1c3b64);
+    height: 100vh;
+    width: 100%;
+}
+#container .title{
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+#container .title .title__left{
+   
+    
+}
+#container .title .title__left img.left{
+    max-height: 60px;
+    padding: 0px 5px;
+    
+}
+#container .title .title__left .right{
+    border-left: 2px solid black ;
+    padding: 0px 15px;
+}
+#container .title__mid ul {
+    display: flex;
+    list-style: none;
+}
+#container .title__mid ul a{
+    display: block;
+    padding: 0px 20px;
+    color: #07273D;
+    text-decoration: none;
+    
+}
+/* ----------------------- */
+#container .title__mid ul li.sub-menu{
+    position: relative;
+}
+
+.sub_menu{
+    position: absolute;
+    background-color: #ffffff;
+    width: 500px;
+    height: 100px;
+    top: 10px;
+    padding: 30px 0px;
+    margin: 0px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0;
+    transition: 0.4s;
+}
+#container .title__mid ul  li.sub-menu:active .sub_menu{
+    opacity: 100;
+    top: 48px;
+}
+.sub_menu ul{
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* ----------------- */
+#container .title__right{
+        display: flex;
+
+}
+#container .title__right button{
+    font-size: 400;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+#container .title__right button.left{
+    margin-right: 20px;
+    background-color: #006dff;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    font-size: 16px !important;
+}
+#container .title__right button.left:active{
+
+    background-color: #2059a4;
+    transform: scale(0.95);
+}
+#container .title__right button.right{
+    font-size: 16px !important;
+}
+#container .title__right button.right:hover{
+    background-color: #07273D;
+    color: white;
+}
+
+.container__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+.container__login .container__signin {
+    text-align: center;
+    border-radius: 15px;
+    border-bottom: 3px solid #1d3f6c64;
+    border-right: 3px solid #1d3f6c64;
+    height: 500px;
+    width: 400px;
+    background-color: #9aabc25f;
+    box-shadow: 2px 5px 10px 10px #042942;
+    padding: 30px ;
+}
+.container__login .container__signin .titleimg{
+    color: #042942;
+    font-size: 20px;
+    
+}
+
+.container__login .container__signin .title__button{
+    display: flex;
+    padding: 30px 0px 0px 0px ;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__login .container__signin .title__button {
+    position: relative;
+}
+
+.container__login .container__signin .title__button button{
+    padding: 10px 0px;
+    color: #1c3b64;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container__login .container__signin .title__button button.signin{
+    color: #1c3b64;
+}
+
+
+
